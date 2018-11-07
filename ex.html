@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="ex.css" />
+<h1><u>JavaScript HTML5 Task - Julian</u></h1>
+</head>
+
+<body onload="expandingCircle()">
+        <div id="calc">
+                <p>Input radius value and get the volume of a sphere.</p>
+                
+                <p>Radius:</p>
+                <input type="text" id="rtxt"> 
+                
+                <p>Volume:</p>
+                <input type="text" id="vtxt"><br><br>
+                
+                <input class="button" type="button" onclick="rad2vol();drawCircle()" value="convert">
+                </div>
+<canvas id="cnvs"></canvas><br>
+
+<input class="button" type="button" value="clear" id="clrButton" onclick="clearcanvas1()">
+
+    <script src="ex.js"></script>
+</body>
+
+</html>
